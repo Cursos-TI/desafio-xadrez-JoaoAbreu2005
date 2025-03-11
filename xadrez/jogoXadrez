@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+	//peças brancas
+	int torreBranco1,bispoBranco1,rainhaBranca1;
+   
+    //Torre branca 2
+    printf("Movimento da torre branca:\n");
+	for(torreBranco1 = 1 ; torreBranco1 <+ 5; torreBranco1++) {
+		printf(" Direita\n");
+	}
+	//Bispo branco 1
+	printf("Movimento do bispo branco:\n");
+	bispoBranco1=1;
+	while(bispoBranco1 <=5) {
+		printf("Cima, direita\n");
+		bispoBranco1++;
+	}
+	//Rainha branca 1
+	printf("Movimento do rainha branca:\n");
+	rainhaBranca1 =1;
+	do{
+	    printf("Esquerda\n ");
+	    rainhaBranca1++;
+	}while(rainhaBranca1<=8);
+
+	return 0;
+}
